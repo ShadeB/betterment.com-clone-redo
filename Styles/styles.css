@@ -1,0 +1,12 @@
+*, ::before, ::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    color: rgb(104, 108, 115);
+    font-size: 0.7rem;
+    line-height: 1;
+    font-family: "GT America", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
