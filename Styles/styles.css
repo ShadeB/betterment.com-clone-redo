@@ -24,7 +24,6 @@ a {
 .container {
     margin: 0 auto;
     max-width: 85rem;
-    padding: 0 1rem;
     width: 100%;
 }
 
@@ -61,6 +60,10 @@ a {
     font-weight: 800;
     font-size: 0.9rem;
     opacity: 0.3;
+  }
+
+  .image-container img{
+      width: 100%;
   }
 
   .secondary-nav {
