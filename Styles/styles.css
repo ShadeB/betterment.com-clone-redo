@@ -89,6 +89,7 @@ a {
   .svg-container svg:only-child {
       color: inherit;
       fill: currentColor;
+      width: 100%;
   }
 
 @media (min-width: 700px) {
