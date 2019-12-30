@@ -23,7 +23,7 @@ a {
 
 .container {
     margin: 0 auto;
-    max-width: 85rem;
+    max-width: 1200px;
     width: 100%;
 }
 
@@ -67,7 +67,9 @@ a {
   }
 
   .secondary-nav {
-      padding: 1rem;
+      padding: 0 1rem;
+      position: relative;
+      bottom: 1.8rem;
   }
 
   .secondary-nav-links {
@@ -76,8 +78,9 @@ a {
     align-items: center;
     background-color: #fff;
     color: #000;
-    margin: 0.4rem;
+    margin-bottom: 0.6rem;
     padding: 0.6rem;
+    box-shadow: rgba(186, 190, 196, 0.36) 0px 3px 8px 0px;
   }
 
   .svg-container {
@@ -92,10 +95,32 @@ a {
       width: 100%;
   }
 
+  .bg-color-blue {
+      background-color: rgb(5, 84, 241)
+  }
+
+  .color-white {
+      color: #fff;
+  }
+
+  .text-center {
+      text-align: center;
+  }
+
+  .content {
+      padding: 2.4rem;
+      font-size: 1.1rem;
+      font-weight: 500;
+  }
+
 @media (min-width: 700px) {
-    .container:only-child {
+    .hero .container:only-child {
         flex: 0 1 58%;
         margin: 1rem;
         min-width: 21rem;
+    }
+
+    .image-container {
+        display: none;
     }
 }
