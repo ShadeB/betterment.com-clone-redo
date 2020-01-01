@@ -14,6 +14,7 @@ html {
 
 a {
     text-decoration: none;
+    color: rgb(5, 84, 241);
 }
 
 .hero {
@@ -66,8 +67,11 @@ a {
       width: 100%;
   }
 
+  .content-layout {
+    padding: 0 1.6rem;
+  }
+
   .secondary-nav {
-      padding: 0 1rem;
       position: relative;
       bottom: 1.8rem;
   }
@@ -112,6 +116,39 @@ a {
       font-size: 1.1rem;
       font-weight: 500;
   }
+
+  .section-layout {
+      margin: 4rem 0;
+  }
+
+  details {
+      text-align: left;
+  }
+
+  details:not(:last-of-type) {
+      border-bottom: 1px solid rgb(223, 223, 223);
+  }
+
+  summary {
+      color: rgb(43, 43, 43);
+      list-style-image: none;
+      display: flex;
+      justify-content: space-between;
+      padding: 2rem 0;
+  }
+
+  summary::-webkit-details-marker {
+    display: none;
+  }
+
+  summary:after {
+      content: url("data:image/svg+xml; utf8,<svg xmlns='http://www.w3.org/2000/svg' width='16px' height='16px' fill='rgb(5,84,241)' viewBox='0 0 16 16'><polygon points='14.586 3.801 8.003 10.384 1.413 3.807 0 5.224 8.003 13.211 16 5.215'></polygon></svg>");
+  }
+
+  h2 {
+      padding: 2rem 0;
+  }
+
 
 @media (min-width: 700px) {
     .hero .container:only-child {
