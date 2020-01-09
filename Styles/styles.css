@@ -67,8 +67,9 @@ a:focus {
 		opacity: 0.3;
 	}
 
-	.image-container img{
+	img{
 			width: 100%;
+			max-width: 100%;
 	}
 
 	.content-layout {
@@ -181,6 +182,26 @@ a:focus {
 		text-decoration: none;
 		display: block;
 		padding-bottom: 1rem;
+	}
+
+	.social-icons-container {
+		display: grid;
+		grid-template-columns: repeat(3, 2rem);
+		grid-gap: 1.2rem;
+	}
+
+	.social-icon {
+		color: inherit;
+	}
+
+	.social-icon svg {
+		fill: currentColor;
+	}
+
+	.app-store-links {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		grid-gap: 1.4rem;
 	}
 
 
