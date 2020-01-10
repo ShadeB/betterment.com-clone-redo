@@ -184,10 +184,17 @@ a:focus {
 		padding-bottom: 1rem;
 	}
 
+	.footer-icons-container {
+		display: grid;
+		padding: 1rem;
+	}
+
 	.social-icons-container {
 		display: grid;
 		grid-template-columns: repeat(3, 2rem);
 		grid-gap: 1.2rem;
+		margin: auto;
+		padding-bottom: 1rem;
 	}
 
 	.social-icon {
