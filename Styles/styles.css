@@ -21,6 +21,10 @@ a:focus {
 	border: 0.1rem solid rgb(5, 84, 241);
 }
 
+p {
+	margin-bottom: 1rem;
+}
+
 .hero {
 		align-items: center;
 		display: flex;
