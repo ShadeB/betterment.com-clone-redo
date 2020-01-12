@@ -30,6 +30,37 @@ p {
 		display: flex;
 }
 
+.navbar {
+	justify-content: space-between;
+	overflow: hidden;
+}
+
+#site-logo {
+	font-weight: 900;
+	letter-spacing: -.066rem;
+	margin: auto 0;
+	padding-left: 1.2rem;
+	color: rgb(0, 0, 0);
+}
+
+#nav-button {
+	background: none;
+	border: none;
+	position: relative;
+	padding: 1.4rem 1rem;
+	margin-right: -0.1rem;
+	bottom: 0.3rem; 
+}
+
+#nav-button:before, #nav-button:after, #nav-button span {
+	background-color: rgb(0, 0, 0);
+	content: '';
+	display: block;
+	height: 0.1rem;
+	margin: 0.18rem;
+	width: 0.9rem;
+}
+
 .container {
 		margin: 0 auto;
 		max-width: 1200px;
@@ -37,12 +68,16 @@ p {
 }
 
 .container--flex {
-		align-items: center;
 		display: flex;
+}
+
+.flex-center {
+	align-items: center;
 }
 
 .hero__description {
 		text-align: center;
+		padding: 1.5rem;
 }
 
 .big-hero__heading {
@@ -56,6 +91,7 @@ p {
 
 .hero__description p {
 		margin-bottom: 2rem;
+		font-size: 0.95rem;
 }
 
 .btn-get--started {
@@ -94,6 +130,10 @@ p {
 		margin-bottom: 0.6rem;
 		padding: 0.6rem;
 		box-shadow: rgba(186, 190, 196, 0.36) 0px 3px 8px 0px;
+	}
+
+	.secondary-nav-links p {
+		margin-bottom: 0;
 	}
 
 	.svg-container {
