@@ -17,8 +17,8 @@ a {
 		color: rgb(5, 84, 241);
 }
 
-a:focus {
-	border: 0.1rem solid rgb(5, 84, 241);
+a:focus, #nav-button:focus, summary:focus {
+	outline: 0.15rem solid rgb(5, 84, 241);
 }
 
 p {
@@ -176,7 +176,6 @@ p {
 
 	.section-layout {
 			padding: 4rem 0;
-			font-size: 0.83rem;
 	}
 
 	details {
