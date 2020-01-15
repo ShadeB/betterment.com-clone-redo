@@ -315,4 +315,10 @@ p {
 			padding: 0.9rem 2rem;
 		}
 
+		.get-started-link {
+			color: rgb(255, 255, 255);
+			background-color: rgb(5, 84, 241);
+			padding: 0.9rem 1.5rem;
+		}
+
 }
