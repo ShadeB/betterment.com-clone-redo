@@ -12,6 +12,10 @@ html {
 		font-family: "GT America", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
+li {
+	list-style-type: none;
+}
+
 a {
 		text-decoration: none;
 		color: rgb(5, 84, 241);
@@ -278,4 +282,5 @@ p {
 		.display-none-when-lg {
 			display: none;
 		}
+
 }
