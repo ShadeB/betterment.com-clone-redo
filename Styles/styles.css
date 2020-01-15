@@ -283,4 +283,8 @@ p {
 			display: none;
 		}
 
+		.navbar {
+			padding: 0 2rem;
+		}
+
 }
