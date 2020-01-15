@@ -292,4 +292,16 @@ p {
 			font-weight: 800;
 		}
 
+		.nav-links {
+			display: flex;
+		}
+
+		.nav-links li {
+			padding: 1.4rem;
+		}
+
+		.nav-links a {
+			color: inherit;
+		}
+
 }
