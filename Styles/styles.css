@@ -259,6 +259,10 @@ p {
 		grid-gap: 1.4rem;
 	}
 
+	.display-none-when-sm {
+		display: none;
+	}
+
 
 @media (min-width: 700px) {
 		.hero .container:only-child {
@@ -269,5 +273,9 @@ p {
 
 		.image-container {
 				display: none;
+		}
+
+		.display-none-when-lg {
+			display: none;
 		}
 }
