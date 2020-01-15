@@ -287,4 +287,9 @@ p {
 			padding: 0 2rem;
 		}
 
+		#site-logo {
+			font-size: 1.2rem;
+			font-weight: 800;
+		}
+
 }
