@@ -300,8 +300,19 @@ p {
 			padding: 1.4rem;
 		}
 
-		.nav-links a {
+		.inherit-color {
 			color: inherit;
+		}
+
+		.CTA-link {
+			font-size: 0.85rem;
+			font-weight: 700;
+		}
+
+		.login-link {
+			color: rgb(5, 84, 241);
+			border: 0.1rem solid rgb(5, 84, 241);
+			padding: 0.9rem 2rem;
 		}
 
 }
