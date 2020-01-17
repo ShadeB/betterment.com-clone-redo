@@ -322,4 +322,12 @@ p {
 			padding: 0.9rem 1.5rem;
 		}
 
+		#get-started-CTA-container {
+			padding-left: 0.3rem;
+		}
+
+		#FAQ-CTA {
+			margin-right: 9.4rem;
+		}
+
 }
