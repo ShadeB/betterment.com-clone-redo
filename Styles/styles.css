@@ -40,8 +40,10 @@ p {
 
 .navbar {
 	justify-content: space-between;
+	align-items: center;
 	overflow: hidden;
 	padding: 0 1.2rem;
+	height: 4rem;
 }
 
 #site-logo {
