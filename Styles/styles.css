@@ -340,4 +340,19 @@ p {
 			position: relative;
 		}
 
+		.main-navlink::after {
+			content: "";
+			display: block;
+			background-color: rgb(5, 84, 241);
+			height: 0.1rem;
+			margin-top: 0.5rem;
+			position: absolute;
+			left: 0;
+			right: 100%;
+		}
+
+		.main-navlink:hover::after, .main-navlink:focus::after {
+			right: 0;
+		}
+
 }
