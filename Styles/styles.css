@@ -332,4 +332,8 @@ p {
 			margin-right: 9.4rem;
 		}
 
+		.main-navlink:hover, .main-navlink:focus {
+			color: rgb(0, 0, 0);
+		}
+
 }
