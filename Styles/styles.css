@@ -349,6 +349,7 @@ p {
 			position: absolute;
 			left: 0;
 			right: 100%;
+			transition: right .2s cubic-bezier(0, 0.5, 0, 1);
 		}
 
 		.main-navlink:hover::after, .main-navlink:focus::after {
