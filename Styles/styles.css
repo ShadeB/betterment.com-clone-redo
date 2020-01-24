@@ -318,10 +318,19 @@ p {
 			padding: 0.9rem 2rem;
 		}
 
+		.login-link:hover {
+			color:rgb(21, 85, 186);
+			border-color: rgb(21, 85, 186)
+		}
+
 		.get-started-link {
 			color: rgb(255, 255, 255);
 			background-color: rgb(5, 84, 241);
 			padding: 0.9rem 1.5rem;
+		}
+
+		.get-started-link:hover {
+			background-color:rgb(21, 85, 186);
 		}
 
 		#get-started-CTA-container {
@@ -354,6 +363,10 @@ p {
 
 		.main-navlink:hover::after, .main-navlink:focus::after {
 			right: 0;
+		}
+		
+		.main-navlink:focus{
+			outline: none;
 		}
 
 }
