@@ -272,7 +272,7 @@ p {
 
 @media (min-width: 700px) {
 		.hero .container:only-child {
-				flex: 0 1 58%;
+				flex: 0 1 45%;
 				margin: 1rem;
 				min-width: 21rem;
 		}
@@ -283,6 +283,10 @@ p {
 
 		.display-none-when-lg {
 			display: none;
+		}
+
+		.display-block-when-lg {
+			display: block;
 		}
 
 		.navbar {
@@ -367,6 +371,25 @@ p {
 		
 		.main-navlink:focus{
 			outline: none;
+		}
+
+		.hero__description {
+			text-align: left;
+		}
+
+		.hero__description p {
+			font-size: 1.1rem;
+			margin-bottom: 0;
+		}
+
+		.big-hero__heading {
+			font-size: 3.6rem;
+			margin-bottom: 1.5rem;
+		}
+
+		.btn-get--started {
+			padding: 1rem 4rem;
+			line-height: 9;
 		}
 
 }
