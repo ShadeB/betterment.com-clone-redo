@@ -291,6 +291,7 @@ p {
 
 		.navbar {
 			padding: 0 2rem;
+			margin-bottom: -4.5rem;
 		}
 
 		#site-logo {
@@ -397,8 +398,8 @@ p {
 			background-size: contain;
 			background-position: right top;
 			background-repeat: no-repeat;
-			padding-top: 7rem;
+			padding-top: 10rem;
 			padding-bottom: 7rem;
-			background-position-x: 25rem;
+			background-position-x: 23rem;
 		}
 }
