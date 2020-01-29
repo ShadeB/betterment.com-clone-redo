@@ -443,18 +443,10 @@ p {
 			max-width: 95%;
 		}
 
-		.flex-space--between {
-			justify-content: space-between;
-		}
-
-		.product--link {
-			width: 66%;
-			max-width: 66%;
-		}
-
 		.product--link__icon {
-			width: 0.6rem;
-			height: 0.6rem;
+			width: 0.5rem;
+			height: 0.5rem;
+			margin-left: 0.2rem;
 		}
 
 		.product--invest {
