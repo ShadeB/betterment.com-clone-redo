@@ -461,4 +461,18 @@ p {
 			margin-top: 5rem;		
 		}
 
+		#product--brief {
+			padding-top: 0.5rem;
+			padding-bottom: 1.5rem;
+		}
+
+		.product--brief__item {
+			line-height: 2.5;
+		}
+
+		.product--brief__item::before {
+			content: url("data:image/svg+xml; utf8,<svg xmlns='http://www.w3.org/2000/svg' width='16px' height='16px' fill='rgb(5,84,241)' viewBox='0 0 16 16'><polygon points='14.592 1.72 5.476 10.681 1.436 6.517 0 7.909 5.443 13.519 15.994 3.146'></polygon></svg>");
+			margin-right: 1rem;
+		}
+
 }
