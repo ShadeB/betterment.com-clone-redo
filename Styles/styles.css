@@ -517,4 +517,27 @@ p {
 			text-decoration: underline;
 		}
 
+		.get--started {
+			width: 40%;
+			max-width: 40%;
+			margin-top: -9rem;
+			margin-left: 1rem;
+			line-height: 2.5;
+		}
+
+		.get--started a {
+			line-height: 2.5;
+		}
+
+		.CooperBukiCouch {
+			background-image: url("/Images/cooper_buki_couch.webp");
+			background-size: cover;
+			background-position: center top;
+			background-repeat: no-repeat;
+			padding-top: 8rem;
+			padding-bottom: 20rem;
+			padding-left: 4rem;
+			padding-right: 4rem;
+		}
+
 }
