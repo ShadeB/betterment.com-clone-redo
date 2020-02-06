@@ -555,4 +555,58 @@ p {
 			font-size: 1.2rem;
 		}
 
+		.footer-content {
+			font-size: 0.883rem;
+			padding-top: 2rem;
+			padding-bottom: 4rem;
+		}
+
+		.footer-heading {
+			font-size: 1.05rem;
+		}
+
+		.footer-menu {
+			padding-top: 2.5rem;
+			grid-template-columns: repeat(5, 17.2%);
+		}
+
+		.footer-icons-container {
+			grid-template-columns: 50% 20% 30%;
+			padding-left: 0;
+			padding-right: 0;
+		}
+
+		.footer-header--container {
+			display: grid;
+			grid-template-columns: 40% 40%;
+			grid-gap: 2%;
+			padding-top: 1rem;
+		}
+
+		.footer-header--container a {
+			text-decoration: none;
+		}
+
+		.footer-menu--header {
+			font-size: 0.87rem;
+			font-weight: 600;
+		}
+
+		.social-icons-container {
+			padding-left: 5rem;
+		}
+
+		.app-store-links {
+			grid-template-columns: repeat(2, 50%);
+			grid-gap: 1.6rem;
+			padding-left: 4rem;
+			padding-right: 2rem; 
+		}
+
+		#site--disclaimer {
+			display: grid;
+			grid-template-columns: 22% 48% 23%;
+			grid-gap: 3.5%;
+		}
+
 }
