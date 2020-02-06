@@ -542,6 +542,7 @@ p {
 
 		.details--container {
 			padding-top: 0;
+			padding-bottom: 0;
 		}
 
 		.details--container h2{
@@ -550,6 +551,7 @@ p {
 
 		.details--content {
 			padding: 1rem 15rem;
+			padding-bottom: 0;
 			font-size: 1.2rem;
 		}
 
