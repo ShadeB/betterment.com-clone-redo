@@ -540,4 +540,17 @@ p {
 			padding-right: 4rem;
 		}
 
+		.details--container {
+			padding-top: 0;
+		}
+
+		.details--container h2{
+			padding-top: 0;
+		}
+
+		.details--content {
+			padding: 1rem 15rem;
+			font-size: 1.2rem;
+		}
+
 }
