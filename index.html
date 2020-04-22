@@ -84,7 +84,7 @@
 						<a href="#" class="secondary-nav-links">
 							<p>Cash</p>
 							<span class="svg-container">
-								<svg viewBox="0 0 16">
+								<svg viewBox="0 0 16 16">
 									<polygon
 										points="3.781 14.586 10.364 8.003 3.787 1.413 
 										5.204 0 13.191 8.003 5.195 16"
@@ -96,7 +96,7 @@
 						<a href="#" class="secondary-nav-links">
 							<p>Investing</p>
 							<span class="svg-container">
-								<svg viewBox="0 0 16">
+								<svg viewBox="0 0 16 16">
 									<polygon
 										points="3.781 14.586 10.364 8.003 3.787 1.413 
 										5.204 0 13.191 8.003 5.195 16"
@@ -108,7 +108,7 @@
 						<a href="#" class="secondary-nav-links">
 							<p>Retirement</p>
 							<span class="svg-container">
-								<svg viewBox="0 0 16">
+								<svg viewBox="0 0 16 16">
 									<polygon
 										points="3.781 14.586 10.364 8.003 3.787 1.413 
 										5.204 0 13.191 8.003 5.195 16"
@@ -120,7 +120,7 @@
 						<a href="#" class="secondary-nav-links">
 							<p>FAQs</p>
 							<span class="svg-container">
-								<svg viewBox="0 0 16">
+								<svg viewBox="0 0 16 16">
 									<polygon
 										points="3.781 14.586 10.364 8.003 3.787 1.413 
 										5.204 0 13.191 8.003 5.195 16"
@@ -700,15 +700,15 @@
 			</div>
 		</footer>
 		<script>
-			if ("serviceWorker" in navigator) {
-				window.addEventListener("load", () => {
+			if ('serviceWorker' in navigator) {
+				window.addEventListener('load', () => {
 					navigator.serviceWorker
-						.register("service-worker.js")
+						.register('service-worker.js')
 						.then((register) => {
-							console.log("Service worker registered successfully", register);
+							console.log('Service worker registered successfully', register);
 						})
 						.catch((err) => {
-							console.error("Failed to register service worker: ", err);
+							console.error('Failed to register service worker: ', err);
 						});
 				});
 			}
