@@ -1,6 +1,6 @@
-const filesToCache = ['/Images/buki_cali_couch_phone_ring.webp'];
+const filesToCache = ['/', 'Images/buki_cali_couch_phone_ring.webp'];
 
-const staticCacheName = 'cached-pages-v2';
+const staticCacheName = 'cached-pages-v1';
 
 self.addEventListener('install', (event) => {
 	//begin installing service worker and cache assets'
