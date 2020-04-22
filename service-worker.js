@@ -1,14 +1,14 @@
 const filesToCache = [
-	'/',
-	'Images/buki_cali_couch_phone_ring.webp',
-	'Images/buki_cali_couch.webp',
-	'Images/cali_portrait.webp',
-	'Images/cooper_buki_couch.webp',
-	'Images/download_apple@2x.webp',
-	'Images/download_google@2x.webp',
-	'Images/phone_card_iso_coming_soon.webp',
-	'index.html',
-	'styles.css'
+	'/'
+	//'Images/buki_cali_couch_phone_ring.webp'
+	//'Images/buki_cali_couch.webp',
+	//'Images/cali_portrait.webp',
+	//'Images/cooper_buki_couch.webp',
+	//'Images/download_apple@2x.webp',
+	//'Images/download_google@2x.webp',
+	//'Images/phone_card_iso_coming_soon.webp',
+	//'index.html',
+	//'styles.css'
 ];
 
 const staticCacheName = 'cached-pages-v1';
