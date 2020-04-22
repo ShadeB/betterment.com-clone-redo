@@ -1,5 +1,5 @@
 const filesToCache = [
-	'Images/buki_cali_couch_phone_ring.webp'
+	'/Images/buki_cali_couch_phone_ring.webp'
 	//'Images/buki_cali_couch.webp',
 	//'Images/cali_portrait.webp',
 	//'Images/cooper_buki_couch.webp',
