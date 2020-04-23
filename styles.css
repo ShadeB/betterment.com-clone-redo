@@ -411,7 +411,7 @@ h2 {
   }
 
   .cali-portrait {
-    background-image: url("../Images/cali_portrait.webp");
+    background-image: url("./Images/cali_portrait.webp");
     background-size: contain;
     background-position: right top;
     background-repeat: no-repeat;
@@ -536,7 +536,7 @@ h2 {
   }
 
   .CooperBukiCouch {
-    background-image: url("../Images/cooper_buki_couch.webp");
+    background-image: url("./Images/cooper_buki_couch.webp");
     background-size: cover;
     background-position: center top;
     background-repeat: no-repeat;
