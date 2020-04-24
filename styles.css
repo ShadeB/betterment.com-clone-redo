@@ -411,7 +411,7 @@ h2 {
   }
 
   .cali-portrait {
-    background-image: url("./Images/cali_portrait.webp");
+    background-image: url("/Images/cali_portrait.webp");
     background-size: contain;
     background-position: right top;
     background-repeat: no-repeat;
