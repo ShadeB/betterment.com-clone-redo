@@ -2,7 +2,7 @@
   "name": "Betterment.com clone",
   "short_name": "Betterment.com clone",
   "lang": "en-US",
-  "start_url": "/index.html",
+  "start_url": "index.html",
   "display": "standalone",
   "theme_color": "#F3F4F8",
   "background_color": "#F3F4F8",
