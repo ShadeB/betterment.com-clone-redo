@@ -279,6 +279,28 @@ h2 {
   display: none;
 }
 
+.banner {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+#btnInstall {
+  width: 100%;
+  padding: 1rem;
+  max-width: 85%;
+  border: none;
+  font-size: 1rem;
+  background-color: rgb(49, 90, 171);
+  color: white;
+  display: none;
+}
+
+#btnInstall .fa-plus-circle {
+  margin-right: 1rem;
+}
+
 @media (min-width: 700px) {
   body {
     line-height: 1.5;
