@@ -1,0 +1,31 @@
+{
+  "name": "Betterment.com clone",
+  "short_name": "Betterment.com clone",
+  "lang": "en-US",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "theme_color": "##F3F4F8",
+  "background_color": "##F3F4F8",
+  "icons": [
+    {
+      "src": "",
+      "sizes": "128x128"
+    },
+    {
+      "src": "",
+      "sizes": "192x192"
+    },
+    {
+      "src": "",
+      "sizes": "256x256"
+    },
+    {
+      "src": "",
+      "sizes": "384x384"
+    },
+    {
+      "src": "",
+      "sizes": "512x512"
+    }
+  ]
+}
