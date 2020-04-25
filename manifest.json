@@ -4,8 +4,8 @@
   "lang": "en-US",
   "start_url": "/index.html",
   "display": "standalone",
-  "theme_color": "##F3F4F8",
-  "background_color": "##F3F4F8",
+  "theme_color": "#F3F4F8",
+  "background_color": "#F3F4F8",
   "icons": [
     {
       "src": "Images/touch/Betterment.com_icon-128x128.png",
