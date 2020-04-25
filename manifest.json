@@ -8,23 +8,23 @@
   "background_color": "##F3F4F8",
   "icons": [
     {
-      "src": "",
+      "src": "Images/touch/Betterment.com_icon-128x128.png",
       "sizes": "128x128"
     },
     {
-      "src": "",
+      "src": "Images/touch/Betterment.com_icon-192x192.png",
       "sizes": "192x192"
     },
     {
-      "src": "",
+      "src": "Images/touch/Betterment.com_icon-256x256.png",
       "sizes": "256x256"
     },
     {
-      "src": "",
+      "src": "Images/touch/Betterment.com_icon-384x384.png",
       "sizes": "384x384"
     },
     {
-      "src": "",
+      "src": "Images/touch/Betterment.com_icon-512x512.png",
       "sizes": "512x512"
     }
   ]
