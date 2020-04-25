@@ -60,6 +60,10 @@
 		</nav>
 	</header>
 	<main>
+		<section id="installBanner" class="banner">
+			<button id="btnInstall">Add app to home screen</button>
+		</section>
+
 		<section class="hero cali-portrait">
 			<div class="container flex--container flex-center">
 				<div class="hero__description">
@@ -597,20 +601,7 @@
 			</div>
 		</div>
 	</footer>
-	<script>
-		if ('serviceWorker' in navigator) {
-			window.addEventListener('load', () => {
-				navigator.serviceWorker
-					.register('service-worker.js')
-					.then((register) => {
-						console.log('Service worker registered successfully', register);
-					})
-					.catch((err) => {
-						console.error('Failed to register service worker', err);
-					});
-			});
-		}
-	</script>
+	<script src="index.js"></script>
 	<script src="service-worker.js"></script>
 </body>
 
